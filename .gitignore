@@ -1,0 +1,74 @@
+# Archivos de caché
+__pycache__/
+
+# Entorno virtual (si usas virtualenv)
+venv/
+.env/
+
+# Archivos de registro y directorios de registros
+log/
+logs/
+*.log
+
+# Archivos de configuración locales
+*.ini
+*.conf
+*.env
+
+# Dependencias de Python (puedes ajustar esta lista según tus necesidades)
+# Ten en cuenta que algunos proyectos pueden requerir dependencias específicas.
+# Asegúrate de ajustar esto según tu entorno y necesidades.
+*.pyc
+*.pyo
+__pycache__/
+env/
+lib/
+bin/
+dist/
+build/
+*.egg-info/
+*.egg
+*.swp
+*.db
+*.sqlite3
+db.sqlite
+db.sqlite3
+
+# Archivos generados automáticamente
+__init__.py
+*.pyc
+
+# Directorio donde se almacenan los archivos estáticos y generados por FastAPI (ajusta según tu configuración)
+/static/
+
+# Directorio donde se almacenan los archivos de carga (ajusta según tu configuración)
+/uploads/
+
+# Entorno de desarrollo específico (ajusta según tu configuración)
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.swn
+*.user
+*.bak
+*.pid
+*.pid.lock
+*.log
+*.pot
+*.cache
+*.patch
+*.tmp
+*.tmp.*
+*.*.log
+Thumbs.db
+db.sqlite3
+media/
+
+#Archivo de deploy en Deta
+Spacefile
